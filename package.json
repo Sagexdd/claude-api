@@ -1,5 +1,16 @@
 {
-  "name": "claude-free-api",
+  "name": "multi-ai-api",
   "version": "1.0.0",
-  "type": "module"
+  "description": "Multi-AI API with GPT-4, Claude, Gemini, Llama & Image Generation",
+  "main": "api/index.js",
+  "scripts": {
+    "dev": "vercel dev",
+    "deploy": "vercel --prod"
+  },
+  "dependencies": {
+    "node-fetch": "^2.7.0"
+  },
+  "engines": {
+    "node": ">=18.x"
+  }
 }
